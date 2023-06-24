@@ -8,17 +8,32 @@
     <title>단어 게임</title>
 </head>
 <body>
-    <h1>단어 게임</h1>
+    <div id="container">
+        <div id="header">
+            <h1>단어 게임</h1>
+            <!-- 게임 시작하기, 끝내기 버튼 -->
+            <div id="game--button">
+                <button class="start--button">게임 시작</button>
+                <button class="finish--button">끝내기</button>
+            </div>
+            <!-- 점수판 -->
+            <div id="score--board">
+                <div class="score">0</div>
+            </div>
+        </div>
 
-    <!-- 점수판 -->
+        <div id="main">
+            <!-- 무작위 단어 -->
+            <div id="random--word"></div>
+        </div>
 
-    <!-- 무작위 단어 -->
-
-    <!-- 입력 필드 -->
-    <!-- 입력 버튼 -->
-
-    <!-- 게임 시작하기, 끝내기 버튼 -->
-
+        <div id="footer">
+            <!-- 입력 필드 -->
+            <input type="text" id="input--box" placeholder="값을 입력하세요"></div>
+            <!-- 입력 버튼 -->
+            <button id="input--check">확인</button>
+        </div>
+    </div>
     <script type="module" src="src/app.js"></script>
 </body>
 </html>
