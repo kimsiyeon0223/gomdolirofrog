@@ -104,5 +104,4 @@ const words = [
   "yak",
   "zebra",
 ];
-
 export default words;
